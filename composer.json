@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "~2.0",
+        "slim/views": "0.1.*",
+        "twig/twig": "~1.0",
+        "phpmailer/phpmailer": "~5.2",
+        "hassankhan/config": "0.8.*",
+        "illuminate/database": "^5.0",
+        "respect/validation": "2.*",
+        "ircmaxell/random-lib": "~1.1",
+        "phpunit/phpunit": "^9.3",
+        "sglusnevs/violin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tsega\\": "app/Tsega"
+        }
+    }
+}
