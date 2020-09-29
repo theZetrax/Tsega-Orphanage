@@ -3,13 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./script/css/bootstrap.min.css">
+	<link rel="stylesheet" href= "/tsega-orphanage/public/script/css/bootstrap.min.css">
+
 	<title>Tsega Charity | {% block title %} {% endblock %}</title>
 </head>
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="{{ urlFor('home') }}">Navbar</a>
+		<a class="navbar-brand" href="{{ urlFor('home') }}">TsegaCharity</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -33,10 +34,6 @@
 					<a class="nav-link" href="https://www.gofundme.com">Donate</a>
 				</li>
 			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form>
 		</div>
 	</nav>
 
@@ -59,20 +56,22 @@
 
 				<div class="col-md-3 mb-md-0 mb-3">
 
-					<h5 class="text-uppercase">Links</h5>
 
 					<ul class="list-unstyled">
 						<li>
-							<a href="#!">Link 1</a>
+							<a href="{{ urlFor('about') }}">About</a>
 						</li>
 						<li>
-							<a href="#!">Link 2</a>
+							<a href="{{ urlFor('impact.home') }}">Impact</a>
 						</li>
 						<li>
-							<a href="#!">Link 3</a>
+							<a href="{{ urlFor('news.home') }}">News</a>
 						</li>
 						<li>
-							<a href="#!">Link 4</a>
+							<a href="https://www.gofundme.com">Donate</a>
+						</li>
+						<li>
+							<a href="{{ urlFor('contact') }}">Contact Us</a>
 						</li>
 					</ul>
 
@@ -80,20 +79,20 @@
 
 				<div class="col-md-3 mb-md-0 mb-3">
 
-					<h5 class="text-uppercase">Links</h5>
+					<h5 class="text-uppercase">Follow Us On</h5>
 
 					<ul class="list-unstyled">
 						<li>
-							<a href="#!">Link 1</a>
+							<a href="#!">Facebook</a>
 						</li>
 						<li>
-							<a href="#!">Link 2</a>
+							<a href="#!">Instagram</a>
 						</li>
 						<li>
-							<a href="#!">Link 3</a>
+							<a href="#!">Linked In</a>
 						</li>
 						<li>
-							<a href="#!">Link 4</a>
+							<a href="#!">Telegram</a>
 						</li>
 					</ul>
 
@@ -109,9 +108,9 @@
 
 	</footer>
 
-	<script src="./script/js/jquery.min.js"></script>
-	<script src="./script/js/popper.js"></script>
-	<script src="./script/js/bootstrap.min.js"></script>
+	<script src="/tsega-orphanage/public/script/js/jquery.min.js"></script>
+	<script src="/tsega-orphanage/public/script/js/popper.js"></script>
+	<script src="/tsega-orphanage/public/script/js/bootstrap.min.js"></script>
 </body>
 
 </html>
